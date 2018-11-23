@@ -2,6 +2,7 @@ public class Team {
 	
 	private String teamName;
 	private String coach;
+	private Player captain;
 	
 	public String getTeamName() {
 		return this.teamName;
@@ -17,6 +18,14 @@ public class Team {
 	
 	public void setCoach(String Coach) {
 		this.coach=Coach;
+	}
+	
+	public Player getCaptain() {
+		return this.captain;
+	}
+	
+	public void setCaptain(Player Captain) {
+		this.captain=Captain;
 	}
 	
 }

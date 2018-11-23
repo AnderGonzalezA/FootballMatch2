@@ -1,6 +1,7 @@
 public class Player {
 	
 	private String playerName;
+	private String age;
 	private String teamName;
 	
 	public String getPlayerName() {
@@ -15,7 +16,16 @@ public class Player {
 		return this.teamName;
 	}
 	
-	public void setTeamrName(String TeamName) {
+	public void setTeamName(String TeamName) {
 		this.teamName=TeamName;
 	}
+
+	public String getAge() {
+		return this.age;
+	}
+	
+	public void setAge(String Age) {
+		this.age=Age;
+	}
+	
 }
